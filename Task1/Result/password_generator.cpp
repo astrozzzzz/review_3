@@ -18,7 +18,7 @@ string GeneratePassword(int level) {
     const string digits = "0123456789";
     const string special = "!@#$%^&*()_+-=[]{}|;:,.<>?";
 
-    int length;
+    int length = 0;
     switch (level) {
         case 1: length = 8; break;
         case 2: length = 12; break;
